@@ -158,7 +158,7 @@ def my_rules(rules, facts):
             found = False
             #print(then_value)
             #extracted_numbers.append(then_value)
-
+    #facts.append(extracted_numbers)
     return facts
 
 
@@ -185,6 +185,5 @@ time_start = time()
 my_rules(rules, facts)
 #print(facts)
 # YOUR CODE HERE
-
 
 print("%d facts validated vs %d rules in %f seconds" % (M, N, time() - time_start))
